@@ -1,0 +1,29 @@
+quests:
+  mace_kills:
+    name: Mace kills
+    description: Defeat players with a mace.
+    category: mace_kills
+    period: DAILY
+    target: 20
+    reward: 100.0
+  sword_kills:
+    name: Sword kills
+    description: Defeat players with a sword.
+    category: sword_kills
+    period: DAILY
+    target: 15
+    reward: 75.0
+  axe_kills:
+    name: Axe kills
+    description: Defeat players with an axe.
+    category: WEEKLY
+    period: WEEKLY
+    target: 5
+    reward: 50.0
+  kill_streak:
+    name: Kill streak
+    description: Reach a kill streak.
+    category: kill_streak
+    period: DAILY
+    target: 20
+    reward: 250.0

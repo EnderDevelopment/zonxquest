@@ -1,0 +1,14 @@
+name: QuestGui
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  quests:
+    description: Opens the quest menu or admin editor.
+    usage: /quests [admin]
+    aliases: [quest]
+    permission-message: You do not have permission to use that command.
+permissions:
+  questgui.admin:
+    description: Allows editing quests.
+    default: op
